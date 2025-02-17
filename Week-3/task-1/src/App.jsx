@@ -47,11 +47,6 @@ const App = () => {
             <h2 className="text-center text-2xl font-bold mb-4">Login</h2>
             <LoginForm />
           </section>
-
-
-          
-
-
         </div>
       </div>
     </div>

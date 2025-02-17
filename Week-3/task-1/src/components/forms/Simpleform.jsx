@@ -22,12 +22,12 @@ const SimpleForm = () => {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="Enter text..."
-          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
         />
         <button
           type="submit"
           disabled={isSubmitting}
-          className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-teal-600 text-white px-6 py-2 rounded-lg hover:bg-teal-700 focus:ring-4 focus:ring-teal-200 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? "Submitting..." : "Submit"}
         </button>
